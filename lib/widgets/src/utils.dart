@@ -1,3 +1,4 @@
+// ignore: implementation_imports
 import 'package:onesignal_flutter/src/defines.dart';
 import 'dart:convert';
 

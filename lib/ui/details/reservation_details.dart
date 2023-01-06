@@ -3,6 +3,7 @@ import 'package:booking_bus_app/components/modules.dart';
 class ReservationDetail extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return ReservationDetailState();
   }
@@ -11,6 +12,7 @@ class ReservationDetail extends StatefulWidget {
 class ReservationDetailState extends State<ReservationDetail> {
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return Scaffold(
       

@@ -1,5 +1,8 @@
+// ignore: implementation_imports
 import 'package:onesignal_flutter/src/subscription.dart';
+// ignore: implementation_imports
 import 'package:onesignal_flutter/src/defines.dart';
+// ignore: implementation_imports
 import 'package:onesignal_flutter/src/utils.dart';
 
 class OSPermissionState extends JSONStringRepresentable {

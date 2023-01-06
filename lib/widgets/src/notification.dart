@@ -1,4 +1,6 @@
+// ignore: implementation_imports
 import 'package:onesignal_flutter/src/defines.dart';
+// ignore: implementation_imports
 import 'package:onesignal_flutter/src/utils.dart';
 import 'package:flutter/foundation.dart';
 import 'dart:convert';
@@ -276,6 +278,7 @@ class OSNotificationPayload extends JSONStringRepresentable {
     }
 
     if (json.containsKey('buttons')) {
+      // ignore: deprecated_member_use
       this.buttons = List<OSActionButton>();
       var btns = json['buttons'] as List<dynamic>;
       for (var btn in btns) {

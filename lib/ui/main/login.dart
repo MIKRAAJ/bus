@@ -3,6 +3,7 @@ import 'package:booking_bus_app/components/modules.dart';
 class Login extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return LoginState();
   }
@@ -37,6 +38,7 @@ class LoginState extends State<Login> {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return Scaffold(
       body: Center(

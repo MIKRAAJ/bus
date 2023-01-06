@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
 
 class Toast {
+  // ignore: non_constant_identifier_names
   static final int LENGTH_SHORT = 1;
+  // ignore: non_constant_identifier_names
   static final int LENGTH_LONG = 2;
+  // ignore: non_constant_identifier_names
   static final int BOTTOM = 0;
+  // ignore: non_constant_identifier_names
   static final int CENTER = 1;
+  // ignore: non_constant_identifier_names
   static final int TOP = 2;
 
   static void show(String msg, BuildContext context,

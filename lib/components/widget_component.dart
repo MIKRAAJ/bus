@@ -71,3 +71,6 @@ class WidgetComponent {
     );
 
 }
+
+mixin FlatButton {
+}

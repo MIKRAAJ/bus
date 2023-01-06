@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:booking_bus_app/components/modules.dart';
 
 class ForgetPasswords extends StatefulWidget {
@@ -7,6 +9,7 @@ class ForgetPasswords extends StatefulWidget {
   });
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return ForgetPasswordState();
   }
@@ -17,6 +20,7 @@ class ForgetPasswordState extends State<ForgetPasswords> {
   TextEditingController newPassController = new TextEditingController();
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(

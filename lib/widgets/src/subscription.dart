@@ -1,3 +1,4 @@
+// ignore: implementation_imports
 import 'package:onesignal_flutter/src/utils.dart';
 
 /// Represents the current user's subscription state with OneSignal

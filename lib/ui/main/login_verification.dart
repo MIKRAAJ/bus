@@ -13,6 +13,7 @@ class ScreenVerification extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return ScreenVerificationState();
   }
@@ -41,6 +42,7 @@ class ScreenVerificationState extends State<ScreenVerification> {
       });
     });
 
+    // ignore: todo
     // TODO: implement build
     return Scaffold(
       body: Center(

@@ -3,6 +3,7 @@ import 'package:booking_bus_app/components/modules.dart';
 class Help extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return HelpState();
   }
@@ -13,6 +14,7 @@ class HelpState extends State<Help> {
   List<String> helps = ["The Bus is speeding", "The Bus is dirty", "The Bus is smell", "The driver is rude", "Other"];
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return Scaffold(
       body: Column(

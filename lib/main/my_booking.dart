@@ -5,6 +5,7 @@ class MyBooking extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return MyBookingState();
   }
@@ -13,11 +14,13 @@ class MyBooking extends StatefulWidget {
 class MyBookingState extends State<MyBooking> {
 
   void getBooking() async {
+    // ignore: unused_local_variable
     var conn = await http.get(AppUrl.APP_URL_BOOKING);
   }
 
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return Scaffold(
       body: Text("My Booking")

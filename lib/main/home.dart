@@ -4,6 +4,7 @@ import 'package:intl/intl.dart';
 class Home extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return HomeState();
   }
@@ -17,11 +18,13 @@ class HomeState extends State<Home> {
   DateTime journeys;
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return Scaffold(
       resizeToAvoidBottomPadding: false,
       body: CustomScrollView(
         slivers: <Widget>[
+          // ignore: missing_required_param
           SliverGlueList(
             data: null,
             header: Text("Preferred Bus"),

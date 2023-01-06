@@ -3,6 +3,7 @@ import 'package:booking_bus_app/components/modules.dart';
 class TimerVerification extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return TimerVerificationState();
   }
@@ -14,6 +15,7 @@ class TimerVerificationState extends State<TimerVerification> {
 
   @override
   void initState() {
+    // ignore: todo
     // TODO: implement initState
     runTimer();
     super.initState();
@@ -21,6 +23,7 @@ class TimerVerificationState extends State<TimerVerification> {
 
   @override
   void dispose() {
+    // ignore: todo
     // TODO: implement dispose
     timer?.cancel();
     super.dispose();
@@ -41,6 +44,7 @@ class TimerVerificationState extends State<TimerVerification> {
   @override
   Widget build(BuildContext context) {
 
+    // ignore: todo
     // TODO: implement build
     return Text("00:${timers < 10 ? '0$timers' : timers}",
       style: TextStyle(

@@ -1,3 +1,7 @@
+// ignore: implementation_imports
+// ignore_for_file: deprecated_member_use
+
+// ignore: implementation_imports
 import 'package:onesignal_flutter/src/utils.dart';
 import 'package:flutter/foundation.dart';
 import 'package:onesignal_flutter/onesignal_flutter.dart';

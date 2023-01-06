@@ -1,5 +1,6 @@
 import 'package:booking_bus_app/components/modules.dart';
 
+// ignore: must_be_immutable
 class LoadingScreen extends StatefulWidget {
   bool loading;
 
@@ -9,6 +10,7 @@ class LoadingScreen extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return LoadingScreenState();
   }
@@ -19,6 +21,7 @@ class LoadingScreenState extends State<LoadingScreen> {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return Positioned(
       child: widget.loading ? Container(

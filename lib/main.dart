@@ -4,6 +4,7 @@ void main() => runApp(
 
   MyApp(),);
 
+// ignore: must_be_immutable
 class MyApp extends StatelessWidget {
   Colours colours = new Colours();
   @override
@@ -31,14 +32,17 @@ class MyApp extends StatelessWidget {
   }
 }
 
+// ignore: camel_case_types
 class myApp extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return myAppState();
   }
 }
 
+// ignore: camel_case_types
 class myAppState extends State<myApp> with SingleTickerProviderStateMixin {
   var _visible = true;
 

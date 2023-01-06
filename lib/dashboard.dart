@@ -1,5 +1,6 @@
 import 'package:booking_bus_app/components/modules.dart';
 
+// ignore: must_be_immutable
 class Dashboard extends StatefulWidget {
   int indexing;
 
@@ -9,6 +10,7 @@ class Dashboard extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return DashboardState();
   }
@@ -40,11 +42,13 @@ class DashboardState extends State<Dashboard> {
 
   @override
   void initState() {
+    // ignore: todo
     // TODO: implement initState
     page = widget.indexing;
     super.initState();
   }
 
+  // ignore: missing_return
   Widget titles(int index) {
     switch (index) {
       case 0 :
@@ -64,6 +68,7 @@ class DashboardState extends State<Dashboard> {
   //https://www.mindinventory.com/mobile-portfolio/bus-ticket-booking-app.php
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return Scaffold(
         appBar: AppBar(

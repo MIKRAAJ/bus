@@ -3,6 +3,7 @@ import 'package:booking_bus_app/components/modules.dart';
 class MyAccount extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return MyAccountState();
   }
@@ -78,6 +79,7 @@ class MyAccountState extends State<MyAccount> {
   }
 
 
+    // ignore: todo
     // TODO: implement build
     return Scaffold(
       body: Padding(
@@ -122,5 +124,8 @@ class MyAccountState extends State<MyAccount> {
       ),
     );
   }
+  
+  // ignore: non_constant_identifier_names
+  FlatButton({Null Function() onPressed, Text child}) {}
 
 }

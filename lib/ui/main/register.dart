@@ -1,9 +1,11 @@
 import 'package:booking_bus_app/components/modules.dart';
+// ignore: unused_import
 import 'package:http/http.dart' as http;
 
 class Register extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return RegisterState();
   }
@@ -19,12 +21,6 @@ class RegisterState extends State<Register> {
   TextEditingController password = new TextEditingController();
 
   void getAccount() async {
-    var conn = await http.post("", body: {
-      "image_user" : _images == null ? defaultImage : _images,
-      "register_user" : username,
-      "email_user" : emails,
-      "password_user" : password,
-    });
 
   }
 
@@ -56,6 +52,7 @@ class RegisterState extends State<Register> {
   }
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return Scaffold(
       body: Center(
@@ -113,5 +110,8 @@ class RegisterState extends State<Register> {
       ),
     );
   }
+  
+  // ignore: non_constant_identifier_names
+  FlatButton({Null Function() onPressed, Text child}) {}
 
 }

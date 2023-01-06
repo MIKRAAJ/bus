@@ -1,3 +1,4 @@
+// ignore: implementation_imports
 import 'package:onesignal_flutter/src/utils.dart';
 
 /// When a click action is defined on an In App Message form the dashboard,

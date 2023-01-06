@@ -3,6 +3,7 @@ import 'package:booking_bus_app/components/modules.dart';
 class NotFound extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return NotFoundState();
   }
@@ -11,6 +12,7 @@ class NotFound extends StatefulWidget {
 class NotFoundState extends State<NotFound> {
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return Scaffold(
       body: Column(
